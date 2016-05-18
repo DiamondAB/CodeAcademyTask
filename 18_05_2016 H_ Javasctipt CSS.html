@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <h2 style="text-align: center;">HomeTask</h2>
+        <script type="text/javascript">
+            function blaBlaBla(width,number){
+                document.write('<div style="width:' + width + 'px; height:500px; background:red;">'  );
+                for (var i = 0; i < number; i++)
+                    document.write('<div style="width:' + (width - 10*number) / number + 'px; height:485px; display:inline-block; margin:5px; background:yellow;"></div>');
+                document.write('</div>');
+            }            
+            blaBlaBla(1000,27);
+        </script>        
+    </body>
+</html>
